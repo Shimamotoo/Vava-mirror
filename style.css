@@ -1,0 +1,99 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@500&family=Roboto:wght@100;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background: url(./imagens/wpvava.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'VALORANT', sans-serif;
+    background-color: rgb(20, 20, 20);
+}
+
+.na{
+    display: flex;
+    align-items: center;
+}
+
+.down{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;  
+    font-size: 40px;  
+
+}
+
+i#search{
+    font-size: 25px;
+    background-color: rgb(78, 78, 78);  
+    padding: 7px;
+    border-radius: 10px;
+}
+
+i#globe{
+    font-size: 20px;
+    margin: 5px;   
+}
+
+#logo{
+    position: relative;
+    height: 70px;
+    width: 70px;
+}
+
+nav{
+    padding-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.noticias{
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+}
+
+.not{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    width: 100%;
+    background-color: beige;
+    border-top: 1px solid rgb(168, 168, 168);
+}
+
+
+
+.imgnot{
+    width: 400px;
+    height: 250px;  
+    border-radius: 25px;
+}
+
+a:hover{
+    color: red;
+}
